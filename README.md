@@ -6,7 +6,7 @@ This is a development version of Task App (worked on this as guided by the nodej
 To start a new database instance run the following command
 {path-to-mongod-file} --dbpath={path-to-data-storage}
 /"Program Files"/MongoDb/Server/3.2/bin/mongod.exe -dbpath=/data/db
-The connection URL would be: mongodb://127.0.0.1:27017
+* The connection URL would be: mongodb://127.0.0.1:27017
 
 # Advanced Postman Summary
 * Enviroment variables can be created to store data that is going to be used in all requests. This can be done by creating an environment (dev or prod) and then creating environment variables with key value pairs. Then variables can be used using the following syntax: `{{env_variable_name}}``
